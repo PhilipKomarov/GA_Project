@@ -1,0 +1,122 @@
+header 
+    {
+      text-align: center;
+      background: url('https://www.mindfood.com/wp-content/uploads/2013/10/RTR1JADO.jpg');
+      background-size: cover;
+      color: #d38d5c;
+      -webkit-text-stroke: 0.5px black; 
+      font-family: Aleksei-Solid;
+    }
+a 
+    {
+      color: #d38d5c;
+    }
+h1 
+    {
+      font-size: 70px;
+    }
+img 
+    {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+ul 
+    {
+      padding: 10px;
+      background: rgba(0,0,0,5);
+    }
+li 
+    {
+      display: inline;
+      padding: 0px 10px 0px 50px;
+      font-size: 30px; 
+      }
+article 
+    {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      font-size: 30px; 
+      text-align: justify;
+      font-family: Aleksei-Solid;
+    }
+@media (max-width: 500px) {
+h1 
+      {
+        font-size: 30px;
+        padding: 5px;
+      }
+      
+    }
+
+.nav {
+      display: none;
+      flex-direction: row;
+      margin: 0;
+      padding-left: 0;
+    }
+    
+@media (min-width: 500px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    
+.nav li {
+      cursor: pointer;
+    }
+
+.dropdown-menu {
+      background-color: white;
+      box-shadow: 0 0 2rem rgba(8, 150, 160, 0.808); 
+      display: none;
+      padding: 5px;
+      position: absolute; 
+      top: 640px;
+      z-index: 1; 
+    }
+    
+.dropdown-menu#menu-1 {
+      left: 500px;
+      min-width: 400px; 
+    }
+    
+.dropdown-menu#menu-2 {
+      left: 500px;
+      min-width: 400px; 
+    }
+    
+.dropdown-menu#menu-3 {
+      left: 500px;
+      min-width: 400px; 
+    }
+
+.dropdown-menu#menu-4 {
+      left: 500px;
+      min-width: 400px; 
+    }
+    
+    
+.menu-item-list {
+      margin: 0;
+      padding-left: 0;
+    }
+    
+.menu-item-list li a,
+.menu-item-list li a:visited,
+.menu-item-list li a:focus {
+      display: block;
+      padding: 0 0 0 20px;
+      text-decoration: none;
+      text-align: left;
+    }
+    
+.show {
+      display: block;
+    }
+    
+.hidden {
+      display: none !important;
+    }
