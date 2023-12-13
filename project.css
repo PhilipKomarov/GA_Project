@@ -41,14 +41,6 @@ article
       text-align: justify;
       font-family: Aleksei-Solid;
     }
-@media (max-width: 500px) {
-h1 
-      {
-        font-size: 30px;
-        padding: 5px;
-      }
-      
-    }
 
 .nav {
       display: none;
@@ -59,14 +51,16 @@ h1
     
 @media (min-width: 500px) {
     .nav {
-        display: flex;
-        justify-content: center;
+      display: flex;
+      justify-content: center;
       }
     }
     
 .nav li {
       cursor: pointer;
     }
+
+
 
 .dropdown-menu {
       background-color: white;
@@ -79,23 +73,32 @@ h1
     }
     
 .dropdown-menu#menu-1 {
-      left: 500px;
-      min-width: 400px; 
+      position: absolute;
+      left:50%;
+      margin-left:-300px;
+      width:300px;
     }
     
 .dropdown-menu#menu-2 {
-      left: 500px;
-      min-width: 400px; 
+  position: absolute;
+  left:50%;
+  margin-left:-145px;
+  width:300px;
     }
     
 .dropdown-menu#menu-3 {
-      left: 500px;
-      min-width: 400px; 
+  position: absolute;
+  left:50%;
+  margin-left: 30px;
+  width:300px;
     }
 
 .dropdown-menu#menu-4 {
-      left: 500px;
-      min-width: 400px; 
+  position: absolute;
+  left:50%;
+  margin-left: 195px;
+  width:300px;
+  
     }
     
     
@@ -120,3 +123,7 @@ h1
 .hidden {
       display: none !important;
     }
+
+
+
+    

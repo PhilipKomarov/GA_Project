@@ -38,3 +38,14 @@ function myFunction4()
 function myFunction() {
   alert("Very nice!");
 }
+
+
+document.addEventListener('keydown', function(e) {
+	if( e.keyCode == 27 ){
+	document.getElementById('menu-1').classList.remove('show');
+  document.getElementById('menu-2').classList.remove('show');
+  document.getElementById('menu-3').classList.remove('show');
+  document.getElementById('menu-4').classList.remove('show');
+	}
+});
+
